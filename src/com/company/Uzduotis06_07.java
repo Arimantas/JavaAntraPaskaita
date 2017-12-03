@@ -10,7 +10,6 @@ public class Uzduotis06_07 {
         float ugis = sc.nextFloat();
         System.out.println("Iveskite savo svori (kg):");
         float mase = sc.nextFloat();
-        System.out.println(        Math.round(10.514));
         System.out.println("Jusu kuno mases indeksas yra: " + kmi(ugis, mase));
     }
 

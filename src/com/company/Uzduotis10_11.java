@@ -12,7 +12,7 @@ public class Uzduotis10_11 {
         System.out.print("Iveskite 2 skaiciu: ");
         float sk2 = sc.nextFloat();
         System.out.println("Koki veiksma su siais skaiciais norite atlikti? Pvz.: +, -, *");
-        char veiksmas = sc.next().charAt(0);
+        char veiksmas = sc.next().charAt(0); //charAt(0) nuskaito 1 eilutes zenkla, jei bus parasyta +dasdas, vistiek ims tik + ir veiks
 
         Skaiciuotuvas skaic = new Skaiciuotuvas();
 
